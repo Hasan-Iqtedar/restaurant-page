@@ -1,7 +1,7 @@
 
 export function loadHome(main) {
     main.innerHTML = '';
-    
+
     let body = document.querySelector('body');
     body.style.cssText = 'height: 100vh';
 
@@ -20,7 +20,6 @@ export function loadHome(main) {
 
 let initializeContent = () => {
     let content = document.querySelector('#content');
-    // content.innerHTML = '';
 
     let navBar = document.createElement('nav');
     navBar.classList.add('nav-bar');

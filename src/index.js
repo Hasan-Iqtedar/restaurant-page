@@ -1,8 +1,7 @@
-import loadContact from './contact';
-import initializeContent, {loadHome} from './home';
+import initializeContent, { loadHome } from './home';
 import loadMenu from './menu';
+import loadContact from './contact';
 
-console.log("Hello");
 initializeContent();
 
 let home = document.querySelector('#home');
