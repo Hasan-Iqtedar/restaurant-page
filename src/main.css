@@ -54,7 +54,7 @@ body {
     background-color: rgba(0,0,0,0.7);
 }
 
-.menu-card {
+.card {
     display: flex;
     flex-direction: column;
     width: 425px;

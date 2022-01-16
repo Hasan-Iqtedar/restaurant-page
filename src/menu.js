@@ -1,4 +1,4 @@
-let addItem = (card, title, description) => {
+export let addItem = (card, title, description) => {
     let cardTitle = document.createElement('h2');
     cardTitle.textContent = title;
     cardTitle.classList.add('card-title');
@@ -28,9 +28,9 @@ let loadMenu = () => {
     cards.push(document.createElement('div'));
     cards.push(document.createElement('div'));
 
-    cards[0].classList.add('menu-card');
-    cards[1].classList.add('menu-card');
-    cards[2].classList.add('menu-card');
+    cards[0].classList.add('card');
+    cards[1].classList.add('card');
+    cards[2].classList.add('card');
 
 
     addItem(cards[0], 'Pizza', 'Pepperoni sausage, tomato, mozzarella, oregano.' +
