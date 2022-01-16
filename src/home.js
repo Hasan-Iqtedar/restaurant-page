@@ -1,6 +1,9 @@
 
 export function loadHome(main) {
     main.innerHTML = '';
+    
+    let body = document.querySelector('body');
+    body.style.cssText = 'height: 100vh';
 
     let headline = document.createElement('h1');
     let about = document.createElement('p');
